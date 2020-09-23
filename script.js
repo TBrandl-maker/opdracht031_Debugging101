@@ -10,9 +10,9 @@ for (let person of array) {
     console.log("Dit is de gehele persoon:", [person]);
     console.log("Dit is de naam", [person.name]);
     console.log("Dit is het geboortejaar", 2020 - person.age);
-    console.log([person.name], 'is een ', [person.profession]);
+    console.log([person.name] + ' is een ' + [person.profession]);
     if (person.age > 50) {
-        console.log("Boven de 50 jaar");
+        console.log("Boven de 50 jaar", person.name);
     }
 }
 
